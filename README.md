@@ -37,58 +37,66 @@ Audience WATCHES a Movie
 
 # Attributes
 
-###### Movie
-ID (serial)
-Title (text)
-Description (text)
-Duration (int)
-Rating (int)
-Language (text)
-Subtitle Language (text)
-3D (bool)
+#### Movie
+
+-  ID (serial)
+-  Title (text)
+-  Description (text)
+-  Duration (int)
+-  Rating (int)
+-  Language (text)
+-  Subtitle Language (text)
+-  3D (bool)
 
 
-Director (inherits: Person)
-
-
-
-Actor (inherits: Person)
+#### Director (inherits: Person)
 
 
 
-Employee (inherits: Person)
-Position (string)
-Type of Wage (string)
-Wage (real)
-Address (string)
+#### Actor (inherits: Person)
 
-Person (superclass)
-ID (serial)
-First Name (text)
-Last Name (text)
 
-Audience (inherits: Person)
-DOB (date)
 
-Theatre Room
-ID (serial)
-Capacity (int)
+#### Employee (inherits: Person)
 
-Theater Building
-ID (serial)
-Address (text)
-Name (text)
-Phone Number (text)
+-  Position (string)
+-  Type of Wage (string)
+-  Wage (real)
+-  Address (string)
 
-Show Time
-ID (serial)
-Price (real)
-Start Time (datetime)
-End Time (datetime)
+#### Person (superclass)
 
-Seasonal Discount
-ID (serial)
-Description (text)
-Reduced Price (real)
-Date start (text)
-Date end (text)
+-  ID (serial)
+-  First Name (text)
+-  Last Name (text)
+
+#### Audience (inherits: Person)
+
+-  DOB (date)
+
+#### Theatre Room
+
+-  ID (serial)
+-  Capacity (int)
+
+#### Theater Building
+
+-  ID (serial)
+-  Address (text)
+-  Name (text)
+-  Phone Number (text)
+
+#### Show Time
+
+-  ID (serial)
+-  Price (real)
+-  Start Time (datetime)
+-  End Time (datetime)
+
+#### Seasonal Discount
+
+-  ID (serial)
+-  Description (text)
+-  Reduced Price (real)
+-  Date start (text)
+-  Date end (text)
