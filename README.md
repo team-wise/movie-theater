@@ -24,9 +24,6 @@ Show Time HAS-A Audience
 Theater Building HAS-A Manager
 Theater Building HAS-A Theater Room
 Season Discount HAS-A Show Time (at a reduced price)
-~~~
-
-~~~
 Movie HAS-A Director
 Movie HAS-A Actor
 ~~~
